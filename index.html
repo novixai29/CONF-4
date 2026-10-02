@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <meta
+    name="description"
+    content="FOUNDERS / 27 — Startup Summit 2027"
+  >
+
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FOUNDERS / 27">
+  <meta
+    property="og:description"
+    content="Build what comes next."
+  >
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="FOUNDERS / 27">
+  <meta
+    name="twitter:description"
+    content="Build what comes next."
+  >
+
+  <title>FOUNDERS / 27</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <a href="#mainContent" class="skip-link">
+    Skip to summit details
+  </a>
+
+
+  <!-- =========================================
+       TOP BAR
+  ========================================== -->
+
+  <header class="topbar">
+
+    <a
+      href="#hero"
+      class="brand"
+      aria-label="Back to summit opening"
+    >
+      <span
+        class="brand-light"
+        aria-hidden="true"
+      ></span>
+
+      <span data-field="shortName">
+        F/27
+      </span>
+    </a>
+
+
+    <a
+      href="#actions"
+      class="top-pass"
+    >
+      Get Pass
+    </a>
+
+  </header>
+
+
+  <main id="mainContent">
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+    <section
+      class="hero"
+      id="hero"
+    >
+
+      <div
+        class="stage-opening"
+        aria-hidden="true"
+      >
+
+        <div class="stage-ceiling"></div>
+
+        <div class="hero-beam hero-beam--left"></div>
+        <div class="hero-beam hero-beam--right"></div>
+
+        <div class="hero-floor-line"></div>
+
+      </div>
+
+
+      <div class="hero-content">
+
+        <div class="hero-kicker reveal">
+
+          <span>
+            Official Summit Invitation
+          </span>
+
+          <span class="hero-kicker__divider">
+            /
+          </span>
+
+          <span data-field="organizer">
+            Launch District
+          </span>
+
+        </div>
+
+
+        <p class="hero-status reveal">
+          Stage ready.
+        </p>
+
+
+        <h1
+          class="hero-title reveal"
+          data-field="name"
+        >
+          FOUNDERS / 27
+        </h1>
+
+
+        <p
+          class="hero-tagline reveal"
+          data-field="tagline"
+        >
+          Build what comes next.
+        </p>
+
+
+        <div class="hero-calltime reveal">
+
+          <div>
+            <span>
+              Doors
+            </span>
+
+            <strong id="doorsTime">
+              08:30
+            </strong>
+          </div>
+
+
+          <div>
+            <span>
+              Start
+            </span>
+
+            <strong id="startTime">
+              09:30
+            </strong>
+          </div>
+
+
+          <div>
+            <span>
+              Date
+            </span>
+
+            <strong id="heroDate">
+              12 MAY 2027
+            </strong>
+          </div>
+
+        </div>
+
+
+        <div class="hero-actions reveal">
+
+          <a
+            href="#spotlight"
+            class="hero-primary"
+          >
+            Enter the Stage
+
+            <span aria-hidden="true">
+              ↓
+            </span>
+          </a>
+
+
+          <button
+            id="heroShareButton"
+            class="hero-secondary"
+            type="button"
+          >
+            Share
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-side-label" aria-hidden="true">
+        PRE-SHOW / 00
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         INTERACTIVE SPOTLIGHT
+    ========================================== -->
+
+    <section
+      class="spotlight-section"
+      id="spotlight"
+    >
+
+      <div class="section-heading reveal">
+
+        <p class="section-index">
+          01 / Spotlight
+        </p>
+
+        <h2>
+          Move the light.<br>
+          Find the signal.
+        </h2>
+
+      </div>
+
+
+      <div
+        class="interactive-stage reveal"
+        id="interactiveStage"
+      >
+
+        <div
+          class="interactive-stage__light"
+          id="stageLight"
+          aria-hidden="true"
+        ></div>
+
+
+        <div
+          class="interactive-stage__backdrop"
+          aria-hidden="true"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+
+        <div class="stage-readout">
+
+          <p id="stageLabel">
+            THE IDEA
+          </p>
+
+          <h3 id="stageTitle">
+            Start with the problem.
+          </h3>
+
+          <p id="stageDescription">
+            A summit for founders building practical companies around real problems.
+          </p>
+
+        </div>
+
+
+        <div class="spotlight-control">
+
+          <label for="spotlightRange">
+            Spotlight position
+          </label>
+
+          <input
+            id="spotlightRange"
+            type="range"
+            min="0"
+            max="100"
+            step="1"
+            value="0"
+            aria-label="Move spotlight across summit themes"
+          >
+
+          <div
+            class="spotlight-control__labels"
+            aria-hidden="true"
+          >
+            <span>IDEA</span>
+            <span>PEOPLE</span>
+            <span>STAGE</span>
+            <span>DATE</span>
+          </div>
+
+        </div>
+
+
+        <div
+          class="stage-buttons"
+          role="tablist"
+          aria-label="Summit highlights"
+        >
+
+          <button
+            class="stage-button is-active"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            data-stage-index="0"
+          >
+            Idea
+          </button>
+
+
+          <button
+            class="stage-button"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            data-stage-index="1"
+          >
+            People
+          </button>
+
+
+          <button
+            class="stage-button"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            data-stage-index="2"
+          >
+            Stage
+          </button>
+
+
+          <button
+            class="stage-button"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            data-stage-index="3"
+          >
+            Date
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         COUNTDOWN
+    ========================================== -->
+
+    <section class="countdown-section">
+
+      <div class="section-heading reveal">
+
+        <p class="section-index">
+          02 / Call Time
+        </p>
+
+        <h2>
+          The room opens<br>
+          in...
+        </h2>
+
+      </div>
+
+
+      <div
+        class="countdown-layout"
+        aria-label="Countdown to summit"
+      >
+
+        <div class="countdown-days reveal">
+
+          <span class="countdown-days__label">
+            Days
+          </span>
+
+          <strong id="countdownDays">
+            00
+          </strong>
+
+        </div>
+
+
+        <div class="countdown-secondary">
+
+          <div class="countdown-small reveal">
+
+            <span>
+              Hours
+            </span>
+
+            <strong id="countdownHours">
+              00
+            </strong>
+
+          </div>
+
+
+          <div class="countdown-small reveal">
+
+            <span>
+              Minutes
+            </span>
+
+            <strong id="countdownMinutes">
+              00
+            </strong>
+
+          </div>
+
+
+          <div class="countdown-small reveal">
+
+            <span>
+              Seconds
+            </span>
+
+            <strong id="countdownSeconds">
+              00
+            </strong>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="countdown-footer reveal">
+
+        <span class="live-dot" aria-hidden="true"></span>
+
+        <p
+          id="countdownMessage"
+          aria-live="polite"
+        >
+          Countdown to stage opening.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         FOUNDERS
+    ========================================== -->
+
+    <section
+      class="founders-section"
+      id="founders"
+    >
+
+      <div class="founders-heading reveal">
+
+        <div>
+          <p class="section-index">
+            03 / On Stage
+          </p>
+
+          <h2>
+            Meet the<br>
+            founders.
+          </h2>
+        </div>
+
+
+        <p class="swipe-note">
+          Swipe to explore →
+        </p>
+
+      </div>
+
+
+      <div
+        class="founder-track"
+        id="founderTrack"
+        aria-label="Featured founders"
+      >
+        <!-- JavaScript -->
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SUMMIT MOMENTS
+    ========================================== -->
+
+    <section class="moments-section">
+
+      <div class="section-heading reveal">
+
+        <p class="section-index">
+          04 / Run of Show
+        </p>
+
+        <h2>
+          Four moments.<br>
+          No filler.
+        </h2>
+
+      </div>
+
+
+      <div
+        class="moment-list"
+        id="momentList"
+      >
+        <!-- JavaScript -->
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         VENUE
+    ========================================== -->
+
+    <section class="venue-section">
+
+      <div class="venue-stage">
+
+        <div class="venue-copy reveal">
+
+          <p class="section-index section-index--light">
+            05 / Venue
+          </p>
+
+          <p class="venue-city" id="venueCity">
+            BAGHDAD
+          </p>
+
+          <h2 data-field="venue">
+            Baghdad Innovation Hall
+          </h2>
+
+          <p
+            class="venue-location"
+            id="venueLocation"
+          >
+            Baghdad, Iraq
+          </p>
+
+        </div>
+
+
+        <div
+          class="venue-seatmap reveal"
+          aria-hidden="true"
+        >
+
+          <div class="venue-stage-box">
+            STAGE
+          </div>
+
+          <div class="seat-row seat-row--1"></div>
+          <div class="seat-row seat-row--2"></div>
+          <div class="seat-row seat-row--3"></div>
+
+          <span class="you-marker">
+            YOU
+          </span>
+
+        </div>
+
+
+        <a
+          href="#"
+          class="venue-link reveal"
+          id="mapButton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>
+            Open Directions
+          </span>
+
+          <span aria-hidden="true">
+            ↗
+          </span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         ACTIONS
+    ========================================== -->
+
+    <section
+      class="actions-section"
+      id="actions"
+    >
+
+      <div class="action-head reveal">
+
+        <p class="section-index">
+          06 / Your Pass
+        </p>
+
+        <h2>
+          Ready when<br>
+          the lights go on.
+        </h2>
+
+      </div>
+
+
+      <a
+        id="registerButton"
+        class="pass-button reveal"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <span class="pass-button__left">
+
+          <small>
+            ACCESS
+          </small>
+
+          <strong>
+            GET YOUR PASS
+          </strong>
+
+        </span>
+
+
+        <span
+          class="pass-button__arrow"
+          aria-hidden="true"
+        >
+          ↗
+        </span>
+
+      </a>
+
+
+      <div class="action-grid">
+
+        <button
+          id="calendarButton"
+          class="action-card reveal"
+          type="button"
+        >
+          <span class="action-card__index">
+            01
+          </span>
+
+          <strong>
+            Add to Calendar
+          </strong>
+
+          <span aria-hidden="true">
+            +
+          </span>
+        </button>
+
+
+        <a
+          id="secondaryMapButton"
+          class="action-card reveal"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="action-card__index">
+            02
+          </span>
+
+          <strong>
+            Directions
+          </strong>
+
+          <span aria-hidden="true">
+            ↗
+          </span>
+        </a>
+
+
+        <button
+          id="shareButton"
+          class="action-card reveal"
+          type="button"
+        >
+          <span class="action-card__index">
+            03
+          </span>
+
+          <strong>
+            Share Invitation
+          </strong>
+
+          <span aria-hidden="true">
+            +
+          </span>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         CLOSING
+    ========================================== -->
+
+    <section class="closing-section">
+
+      <div
+        class="closing-light"
+        aria-hidden="true"
+      ></div>
+
+
+      <p class="closing-status reveal">
+        HOUSE LIGHTS / READY
+      </p>
+
+
+      <h2 class="reveal">
+        See you<br>
+        on stage.
+      </h2>
+
+
+      <p
+        class="closing-name reveal"
+        data-field="shortName"
+      >
+        F/27
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+
+  <footer class="footer">
+
+    <div>
+
+      <span data-field="name">
+        FOUNDERS / 27
+      </span>
+
+      <span>
+        /
+      </span>
+
+      <span id="footerYear">
+        2027
+      </span>
+
+    </div>
+
+
+    <a
+      id="websiteButton"
+      href="#"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Official Website
+    </a>
+
+  </footer>
+
+
+  <div
+    id="statusMessage"
+    class="sr-only"
+    role="status"
+    aria-live="polite"
+  ></div>
+
+
+  <noscript>
+
+    <div class="noscript">
+      JavaScript is required for countdown, calendar and sharing features.
+    </div>
+
+  </noscript>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
